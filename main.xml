@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+    <item
+        android:id="@+id/itemAbout"
+        android:icon="@drawable/item_about"
+        android:showAsAction="never"
+        android:title="About"
+        android:titleCondensed="About">
+    </item>
+    <item
+        android:id="@+id/itemRefresh"
+        android:icon="@drawable/item_refresh"
+        android:showAsAction="always"
+        android:title="Refresh"
+        android:titleCondensed="Refresh">
+    </item>
+    <item
+        android:id="@+id/itemNew"
+        android:icon="@drawable/item_new"
+        android:showAsAction="always"
+        android:title="New"
+        android:titleCondensed="New">
+    </item>
+
+</menu>
